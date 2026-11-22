@@ -1,0 +1,20 @@
+{
+  "name": "simadu-api",
+  "version": "1.0.0",
+  "description": "SIMADU API - REST API Sistem Layanan Informasi dan Pengaduan Mahasiswa",
+  "main": "server.cjs",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.cjs",
+    "dev": "node --watch server.cjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
